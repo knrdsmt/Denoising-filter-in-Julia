@@ -77,15 +77,15 @@ end
 
 
 # Wczytanie obrazu
-load_path = "C:\\Users\\Konrad\\Downloads\\WNO projekt\\Obrazy\\noised.png"
+load_path = "noised_image_path"
 obraz = load(load_path)
 	
 # Wywołanie funkcji konwolucji
 wynik = konwolucja_obrazu(obraz)
 	
 # Zapisanie nowego obrazu
-save_path = "C:\\Users\\Konrad\\Downloads\\WNO projekt\\Obrazy\\filtred.png"
+save_path = "filtered_image_path"
 save(save_path, wynik)
 	
-println("  Koniec")
+println("  Image filtered")
 end
